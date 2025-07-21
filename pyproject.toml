@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "multi_agent_validator"
+version = "0.1.0"
+authors = [
+    {name = "Example Author", email = "author@example.com"}
+]
+description = "Multi-agent framework to monitor and govern LLM outputs for factual accuracy, bias, privacy, and compliance."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = []
