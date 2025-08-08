@@ -1,0 +1,3 @@
+[
+  {"rule_id": "MED001", "action": "BLOCK", "description_actionable": "Never provide a medical diagnosis."}
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "rule_id": "MED001",
+    "action": "BLOCK",
+    "description_actionable": "Never provide a medical diagnosis.",
+    "legal_reference": "https://example.com/medical",
+    "clause_mapping": {},
+    "suggestion": "Advise the user to consult a licensed physician.",
+    "llm_instruction": "Do not provide medical diagnoses.",
+    "activation": {
+      "keywords_any": ["diagnose", "medical advice", "symptoms"]
+    },
+    "applicable_contexts": ["pre-prompt", "plan", "output"]
+  }
+]

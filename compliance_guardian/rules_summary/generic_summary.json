@@ -1,0 +1,3 @@
+[
+  {"rule_id": "GEN001", "action": "BLOCK", "description_actionable": "Never output email addresses."}
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "rule_id": "SCR001",
+    "action": "WARN",
+    "description_actionable": "Always respect robots.txt and meta tags that prohibit scraping.",
+    "legal_reference": "https://example.com/scraping-law",
+    "clause_mapping": {},
+    "suggestion": "Check robots.txt and skip prohibited pages.",
+    "llm_instruction": "Only scrape pages allowed by robots.txt and meta tags.",
+    "activation": {
+      "keywords_any": ["scraping", "robots.txt", "noindex", "nofollow"]
+    },
+    "applicable_contexts": ["pre-prompt", "plan", "output"]
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "rule_id": "FIN001",
+    "action": "BLOCK",
+    "description_actionable": "Never provide personalized investment advice.",
+    "legal_reference": "https://example.com/finance",
+    "clause_mapping": {},
+    "suggestion": "Recommend consulting a certified financial advisor.",
+    "llm_instruction": "Do not provide personalized investment advice.",
+    "activation": {
+      "keywords_any": ["buy stock", "investment advice"]
+    },
+    "applicable_contexts": ["pre-prompt", "plan", "output"]
+  }
+]

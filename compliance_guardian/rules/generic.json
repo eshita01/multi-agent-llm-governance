@@ -1,0 +1,15 @@
+[
+  {
+    "rule_id": "GEN001",
+    "action": "BLOCK",
+    "description_actionable": "Never output email addresses.",
+    "legal_reference": "https://example.com/privacy",
+    "clause_mapping": {},
+    "suggestion": "Remove email addresses or replace them with placeholders.",
+    "llm_instruction": "Do not output email addresses.",
+    "activation": {
+      "regexes": ["[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}"]
+    },
+    "applicable_contexts": ["pre-prompt", "plan", "output"]
+  }
+]

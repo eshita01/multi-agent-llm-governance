@@ -1,23 +1,17 @@
-# multi-agent-llm-governance
+# Dynamic Compliance Guardian
 
-Prototype framework to monitor and govern LLM outputs for factual accuracy, bias, privacy and compliance. This repository implements a minimal version of the system described in the project proposal.
+This repository provides a CPU-friendly compliance layer for LLM agents. Rules are loaded dynamically and matched using a hybrid BM25 and embedding retrieval pipeline. The system can block, warn, or log interactions based on predefined rules.
 
 ## Usage
 
-Install dependencies:
+Run a compliance check from the CLI:
 
 ```bash
-pip install -r requirements.txt
+python -m compliance_guardian.main --prompt "Scrape article titles from example.com"
 ```
 
-Run the example validator:
+## Tests
 
 ```bash
-python -m multi_agent_validator.main
-```
-
-Run tests:
-
-```bash
-pytest
+pytest -q
 ```

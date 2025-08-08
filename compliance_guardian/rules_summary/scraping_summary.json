@@ -1,0 +1,3 @@
+[
+  {"rule_id": "SCR001", "action": "WARN", "description_actionable": "Always respect robots.txt and meta tags that prohibit scraping."}
+]
